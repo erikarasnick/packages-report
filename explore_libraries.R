@@ -1,14 +1,11 @@
-library(tidyverse)
+suppressPackageStartupMessages(library(tidyverse))
 
 #' Which libraries does R search for packages?
 
 # try .libPaths(), .Library
-
 .Library
-# "/Library/Frameworks/R.framework/Resources/library"
 
 .libPaths()
-# "/Library/Frameworks/R.framework/Versions/3.6/Resources/library"
 
 #' Installed packages
 
