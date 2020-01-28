@@ -1,3 +1,7 @@
+#' ---
+#' output: github_document
+#' ---
+
 suppressPackageStartupMessages(library(tidyverse))
 
 #' Which libraries does R search for packages?
